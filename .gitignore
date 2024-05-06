@@ -9,4 +9,8 @@ __pycache__/
 local_settings.py
 db.sqlite3
 
+# Only for Development only
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
 
